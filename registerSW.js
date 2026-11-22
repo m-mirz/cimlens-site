@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/cimlens-site/sw.js', { scope: '/cimlens-site/' })})}
